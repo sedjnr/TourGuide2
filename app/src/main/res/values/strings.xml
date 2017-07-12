@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+
+    <string name="Welcome_to">Welcome to the</string>
+    <string name="LTG">London Tour Guide</string>
+    <string name="LTG_Desc">This app will allow you to quickly find things to do in London during the day</string>
+    <string name="P1">Page 1 - Random fun things</string>
+    <string name="P2">Page 2 - Museums</string>
+    <string name="P3">Page 3 - Restaurants</string>
+    <string name="P4">Page 4 - Sight Seeing</string>
+    <string name="Swipe">Swipe Right to Continue!</string>
+
+    <string name="arcade">Fun arcade situated in the heart of London. Games such as Mario Kart and Street Fighter</string>
+    <string name="bigben">Iconic clock tower The Big Ben is a must see attraction</string>
+    <string name="bus">Have an open bus tour of your new favourite city visiting sites such as The London Eye and The Big Ben</string>
+    <string name="circus">Visit Circ du Soleil for a unique exiting and fast paced evening.</string>
+    <string name="design">Come to the design museum and see marverlous creations by new and up coming artists.</string>
+    <string name="diana">Have a picnic by the Princess Diana Memorial Fountain.</string>
+    <string name="diner">Fantastic American diner, your one stop shop for burgers wings and ribs!</string>
+    <string name="duck">Tower over london whilst dining on exsquisint food, make sure to try the duck and waffle combo.</string>
+    <string name="fish">Get a little bit of London in your life, try out the national meal of fish and chips.</string>
+    <string name="french">Bonjour, come down to the chateaux where breadsticks and bagguettes are our speciality.</string>
+    <string name="gunwharf">See the shopping centre by the sea at Gunwharf Quays, have lunch looking at the ocean.</string>
+    <string name="londoneye">See London from above and beyond as you can ride the London Eye for half an hour.</string>
+    <string name="londonmuseum">Get a blast from the past in the London museum, looking at how far London has come</string>
+    <string name="mexican">Need a little bit of spice in your life? Come and get yourself a burrito at our all you can eat buffet!</string>
+    <string name="natgal">Do you like art? Well come down to see our national art gallery.</string>
+    <string name="national">The national history museum will give you a slice of history from all over the world</string>
+    <string name="paddling">Paddle your way across the vast ocean within hyde park for a relaxing day out</string>
+    <string name="paintballing">Consider yourself a sharpshooter? Get a group together and come and try your hand at being a real soldier.</string>
+    <string name="panic">Become a detective for an hour, break out of our panic room!</string>
+    <string name="park">Want a relaxed day with family and friends, come down to byron park and chill out!</string>
+    <string name="raf">World War 1 and World War 2 memorabelia as well as a sneak peak into the future of our Air Force</string>
+    <string name="sams">Food from the hood, get yourself some sams</string>
+    <string name="science">Embrace your inner nerd! Come down to the science museum to see why the world really is the way it is.</string>
+    <string name="shard">Enjoy fine dining and a great atmosphere? Come to the shard, check the prices before you get a heart attack.</string>
+    <string name="soul">American soul food straight off the grill! Get yourself down to the spot!</string>
+    <string name="tate">The modern art museum that will have your head cocked to the left.</string>
+    <string name="tower">More of a castle than a tower! come and visit one of Londons greatest attractions</string>
+    <string name="trampoline">Bounce your way over to our trampoline park situated in the heart of london! We have slamball and dodgeball!</string>
+
+
+
+</resources>
