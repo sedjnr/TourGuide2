@@ -6,12 +6,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import java.util.ArrayList;
-
-/**
- * Created by Sed on 09/07/2017.
- */
-
 public class WelcomeActivity extends Fragment {
     // Store instance variables
     private String title;

@@ -1,8 +1,6 @@
 package sed.tourguide;
 
 import android.app.Activity;
-import android.content.Context;
-import android.media.Image;
 import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -37,7 +35,7 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
         TextView attractionTextView = (TextView) listItemView.findViewById(R.id.attraction);
         attractionTextView.setText(currentPlace.getAttraction());
 
-       TextView descriptionTextView = (TextView) listItemView.findViewById(R.id.description);
+        TextView descriptionTextView = (TextView) listItemView.findViewById(R.id.description);
         descriptionTextView.setText(currentPlace.getDescription());
 
         ImageView iconView = (ImageView) listItemView.findViewById(R.id.image_icon);
@@ -45,7 +43,7 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
 
         //Sets color of background changes the background for text containers
         View textContainer = listItemView.findViewById(R.id.text_container);
-        int color = ContextCompat.getColor(getContext(),mColorResourceId);
+        int color = ContextCompat.getColor(getContext(), mColorResourceId);
         textContainer.setBackgroundColor(color);
         // Returns a populated list
         return listItemView;

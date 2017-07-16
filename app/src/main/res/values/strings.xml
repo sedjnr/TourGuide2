@@ -10,35 +10,62 @@
     <string name="P4">Page 4 - Sight Seeing</string>
     <string name="Swipe">Swipe Right to Continue!</string>
 
+    <string name="arcadetitle">Trocodaro (Arcade)</string>
     <string name="arcade">Fun arcade situated in the heart of London. Games such as Mario Kart and Street Fighter</string>
+    <string name="bigbentitle">The Big Ben (Clock Tower)</string>
     <string name="bigben">Iconic clock tower The Big Ben is a must see attraction</string>
+    <string name="bustitle">City Bus Rides (City Tours)</string>
     <string name="bus">Have an open bus tour of your new favourite city visiting sites such as The London Eye and The Big Ben</string>
+    <string name="circustitle">Circus du Soleil (Circus)</string>
     <string name="circus">Visit Circ du Soleil for a unique exiting and fast paced evening.</string>
+    <string name="designtitle">Design Museum (Product Design)</string>
     <string name="design">Come to the design museum and see marverlous creations by new and up coming artists.</string>
+    <string name="dianatitle">Princess Diana Memorial (Fountain)</string>
     <string name="diana">Have a picnic by the Princess Diana Memorial Fountain.</string>
+    <string name="dinertitle">The Diner (American Restaurant)</string>
     <string name="diner">Fantastic American diner, your one stop shop for burgers wings and ribs!</string>
+    <string name="ducktitle">Duck and Waffle (Assorted Cusine)</string>
     <string name="duck">Tower over london whilst dining on exsquisint food, make sure to try the duck and waffle combo.</string>
+    <string name="fishtitle">Village Chippy (Fish n Chips)</string>
     <string name="fish">Get a little bit of London in your life, try out the national meal of fish and chips.</string>
+    <string name="frenchtitle">Chateaux Monrow (French Cusine)</string>
     <string name="french">Bonjour, come down to the chateaux where breadsticks and bagguettes are our speciality.</string>
+    <string name="gunwharftitle">Gunwharf Quays (Shopping Centre)</string>
     <string name="gunwharf">See the shopping centre by the sea at Gunwharf Quays, have lunch looking at the ocean.</string>
+    <string name="londoneyetitle">The London Eye (Ferris Wheel)</string>
     <string name="londoneye">See London from above and beyond as you can ride the London Eye for half an hour.</string>
+    <string name="londonmuseumtitle">Museum of London (History)</string>
     <string name="londonmuseum">Get a blast from the past in the London museum, looking at how far London has come</string>
+    <string name="mexicanTitle">El Guapesana (Mexican Cusine)</string>
     <string name="mexican">Need a little bit of spice in your life? Come and get yourself a burrito at our all you can eat buffet!</string>
+    <string name="natgaltitle">National Gallery (Paintings) </string>
     <string name="natgal">Do you like art? Well come down to see our national art gallery.</string>
+    <string name="nationaltitle">National History Museum (History)</string>
     <string name="national">The national history museum will give you a slice of history from all over the world</string>
+    <string name="paddlingtitle">Paddling Hyde Park (Boat Ride)</string>
     <string name="paddling">Paddle your way across the vast ocean within hyde park for a relaxing day out</string>
+    <string name="paintballingtitle">Delta Force (Paintballing)</string>
     <string name="paintballing">Consider yourself a sharpshooter? Get a group together and come and try your hand at being a real soldier.</string>
+    <string name="panictitle">Tomb of Doom (Panic Room)</string>
     <string name="panic">Become a detective for an hour, break out of our panic room!</string>
+    <string name="parktitle">Byron Park (National Park)</string>
     <string name="park">Want a relaxed day with family and friends, come down to byron park and chill out!</string>
+    <string name="rafTitle">R.A.F Museum (Aerospace)</string>
     <string name="raf">World War 1 and World War 2 memorabelia as well as a sneak peak into the future of our Air Force</string>
+    <string name="samstitle">Sams Chicken (Chicken Shop)</string>
     <string name="sams">Food from the hood, get yourself some sams</string>
+    <string name="scienceTitle">Sceince Museum (Science)</string>
     <string name="science">Embrace your inner nerd! Come down to the science museum to see why the world really is the way it is.</string>
+    <string name="shardtitle">The Shard (Tallest Building)</string>
     <string name="shard">Enjoy fine dining and a great atmosphere? Come to the shard, check the prices before you get a heart attack.</string>
+    <string name="soultitle">The Spot (American Soul Food)</string>
     <string name="soul">American soul food straight off the grill! Get yourself down to the spot!</string>
+    <string name="tateTitle">Tate Modern (Modern Art)</string>
     <string name="tate">The modern art museum that will have your head cocked to the left.</string>
+    <string name="towertitle">Tower of London (Castle)</string>
     <string name="tower">More of a castle than a tower! come and visit one of Londons greatest attractions</string>
+    <string name="trampolinetitle">The Jump (Trampoline Park)</string>
     <string name="trampoline">Bounce your way over to our trampoline park situated in the heart of london! We have slamball and dodgeball!</string>
-
 
 
 </resources>

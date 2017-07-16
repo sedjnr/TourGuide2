@@ -1,12 +1,10 @@
 package sed.tourguide;
 
-import  android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.support.v4.app.ListFragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -15,11 +13,11 @@ import java.util.ArrayList;
  */
 
 public class SecondFragment extends ListFragment {
-        // Store instance variables
-        private String title;
-        private int page;
+    // Store instance variables
+    private String title;
+    private int page;
 
-        // newInstance constructor for creating fragment with arguments
+    // newInstance constructor for creating fragment with arguments
     public static SecondFragment newInstance(int page, String title) {
         SecondFragment fragmentSecond = new SecondFragment();
         Bundle args = new Bundle();
@@ -46,16 +44,16 @@ public class SecondFragment extends ListFragment {
         // Creates an ArrayList of Museums in London
         ArrayList<Place> places = new ArrayList<Place>();
         // Defines the content of the ArrayList
-        places.add(new Place("Natural History Museum (History)",R.string.national,R.drawable.national));;
-        places.add(new Place("R.A.F Museum (Aerospace)",R.string.raf,R.drawable.raf));;
-        places.add(new Place("National Gallery (Paintings)",R.string.natgal,R.drawable.natgal));;
-        places.add(new Place("Museum of London (History)",R.string.londonmuseum,R.drawable.londonmuseum));;
-        places.add(new Place("Tate Modern (Modern Art)",R.string.tate,R.drawable.tate));;
-        places.add(new Place("Science Museum (Science)",R.string.science,R.drawable.science));;
-        places.add(new Place("Design Museum (Product Design)",R.string.design,R.drawable.design));;
+        places.add(new Place(R.string.nationaltitle, R.string.national, R.drawable.national));
+        places.add(new Place(R.string.rafTitle, R.string.raf, R.drawable.raf));
+        places.add(new Place(R.string.natgaltitle, R.string.natgal, R.drawable.natgal));
+        places.add(new Place(R.string.londonmuseumtitle, R.string.londonmuseum, R.drawable.londonmuseum));
+        places.add(new Place(R.string.tateTitle, R.string.tate, R.drawable.tate));
+        places.add(new Place(R.string.scienceTitle, R.string.science, R.drawable.science));
+        places.add(new Place(R.string.designtitle, R.string.design, R.drawable.design));
 
         for (int index = 0; index < places.size(); index++) {
-            PlaceAdapter adapter = new PlaceAdapter(getActivity(),places,R.color.colorMuseums);
+            PlaceAdapter adapter = new PlaceAdapter(getActivity(), places, R.color.colorMuseums);
             setListAdapter(adapter);
         }
         return view;

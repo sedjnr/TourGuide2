@@ -26,6 +26,7 @@ public class FourthFragment extends ListFragment {
         fragmentFourth.setArguments(args);
         return fragmentFourth;
     }
+
     // Store instance variables based on arguments passed
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -43,16 +44,16 @@ public class FourthFragment extends ListFragment {
         // Creates an ArrayList of Attractions in London
         ArrayList<Place> places = new ArrayList<Place>();
         // Defines conted of the ArrayList
-        places.add(new Place("Byron Park (National Park)",R.string.park,R.drawable.park));
-        places.add(new Place("The Big Ben(Clock Tower)",R.string.bigben,R.drawable.bigben));
-        places.add(new Place("The London Eye (Ferris Wheel)",R.string.londoneye,R.drawable.londoneye));
-        places.add(new Place("Princess Diana Memorial (Fountain)",R.string.diana,R.drawable.diana));;
-        places.add(new Place("Gunwharf Quays (Shopping Centre)",R.string.gunwharf,R.drawable.gunwharf));
-        places.add(new Place("The Shard (Tallest Building)",R.string.shard,R.drawable.shard));
-        places.add(new Place("Tower of London (Castle)",R.string.tower,R.drawable.tower));
+        places.add(new Place(R.string.parktitle, R.string.park, R.drawable.park));
+        places.add(new Place(R.string.bigbentitle, R.string.bigben, R.drawable.bigben));
+        places.add(new Place(R.string.londoneyetitle, R.string.londoneye, R.drawable.londoneye));
+        places.add(new Place(R.string.dianatitle, R.string.diana, R.drawable.diana));
+        places.add(new Place(R.string.gunwharftitle, R.string.gunwharf, R.drawable.gunwharf));
+        places.add(new Place(R.string.shardtitle, R.string.shard, R.drawable.shard));
+        places.add(new Place(R.string.towertitle, R.string.tower, R.drawable.tower));
 
         for (int index = 0; index < places.size(); index++) {
-            PlaceAdapter adapter = new PlaceAdapter(getActivity(),places,R.color.colorSites);
+            PlaceAdapter adapter = new PlaceAdapter(getActivity(), places, R.color.colorSites);
             setListAdapter(adapter);
         }
         return view;
