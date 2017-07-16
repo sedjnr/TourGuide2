@@ -12,11 +12,11 @@ public class WelcomeActivity extends Fragment {
     private int page;
 
     // newInstance constructor for creating fragment with arguments
-    public static WelcomeActivity newInstance(int page, String title) {
+    public static WelcomeActivity newInstance(int page, int title) {
         WelcomeActivity welcome = new WelcomeActivity();
         Bundle args = new Bundle();
         args.putInt("someInt", page);
-        args.putString("someTitle", title);
+        args.putInt("someTitle", title);
         welcome.setArguments(args);
         return welcome;
     }

@@ -15,11 +15,11 @@ public class FirstFragment extends ListFragment {
     private int page;
 
     // newInstance constructor for creating fragment with arguments
-    public static FirstFragment newInstance(int page, String title) {
+    public static FirstFragment newInstance(int page, int title) {
         FirstFragment fragmentFirst = new FirstFragment();
         Bundle args = new Bundle();
         args.putInt("someInt", page);
-        args.putString("someTitle", title);
+        args.putInt("someTitle", title);
         fragmentFirst.setArguments(args);
         return fragmentFirst;
     }

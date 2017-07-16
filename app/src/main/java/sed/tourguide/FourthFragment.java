@@ -18,11 +18,11 @@ public class FourthFragment extends ListFragment {
     private int page;
 
     // newInstance constructor for creating fragment with arguments
-    public static FourthFragment newInstance(int page, String title) {
+    public static FourthFragment newInstance(int page, int title) {
         FourthFragment fragmentFourth = new FourthFragment();
         Bundle args = new Bundle();
         args.putInt("someInt", page);
-        args.putString("someTitle", title);
+        args.putInt("someTitle", title);
         fragmentFourth.setArguments(args);
         return fragmentFourth;
     }

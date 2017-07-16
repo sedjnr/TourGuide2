@@ -8,6 +8,11 @@
     <string name="P2">Page 2 - Museums</string>
     <string name="P3">Page 3 - Restaurants</string>
     <string name="P4">Page 4 - Sight Seeing</string>
+    <string name="page0">Page # 0</string>
+    <string name="page1">Page # 1</string>
+    <string name="page2">Page # 2</string>
+    <string name="page3">Page # 3</string>
+    <string name="page4">Page # 4</string>
     <string name="Swipe">Swipe Right to Continue!</string>
 
     <string name="arcadetitle">Trocodaro (Arcade)</string>
